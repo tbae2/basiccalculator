@@ -1,0 +1,30 @@
+.calculator {
+  width: 200px;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.keys {
+  float: left;
+  margin: 5px 0;
+  padding: 10px 5px;
+  margin-right: 2px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 25%;
+  width: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.display {
+  width: 190px;
+  border: 1px;
+  border-style: solid;
+  border-radius: 10%;
+}
+
+.keys:hover {
+  background-color: #5C00E6;
+  font-color: white;
+}
